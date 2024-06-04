@@ -1,0 +1,25 @@
+.btn{
+    background-color: #008080;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 5px;
+    padding: 6px 6px;
+}
+
+@media only screen and (max-width: 850px) {
+    .btn{
+        background-color: #008080;
+        cursor: pointer;
+        color: white;
+        font-size: 11px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 4px;
+        border: none;
+        margin-bottom: 5px;
+        padding: 6px 4px;   
+    }
+  }

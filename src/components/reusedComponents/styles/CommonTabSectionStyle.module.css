@@ -1,0 +1,28 @@
+.tabSection {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+.tabBtn {
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-right: 5px;
+}
+
+  @media (max-width: 810px){
+    .tabSection{
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 640px){
+    .tabSection{
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }

@@ -1,0 +1,47 @@
+.commonTable {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-bottom: 20px;
+}
+
+.commonTable th,
+.commonTable td {
+  border: 1px solid #ddd;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.commonTable th {
+  background-color: #008080;
+  color: white;
+}
+
+.commonTable tr:nth-child(even) {
+  background-color: #F2F2F2;
+}
+
+.commonTable tr:hover {
+  background-color: #ddd;
+}
+
+.emptyMsg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+@media (max-width: 850px) {
+
+  .commonTable th,
+  .commonTable td {
+    border: 1px solid #ddd;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    text-align: center;
+    overflow-wrap: break-word;
+  }
+}

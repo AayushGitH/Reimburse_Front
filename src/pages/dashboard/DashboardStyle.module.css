@@ -1,0 +1,156 @@
+.dashboardContainer {
+    width: 100vw;
+    display: block;
+    /* background-color: purple; */
+}
+
+.dashboardContainer h3 {
+    text-align: center;
+    text-decoration: none;
+    /* margin-bottom: 25px; */
+    /* text-shadow: 2px 2px #000000; */
+}
+
+.shadow {
+    text-shadow: 2px 2px #000000;
+}
+
+.loggedUser {
+    margin-left: 10px;
+}
+
+.tabs {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+    color: white;
+}
+
+.active {
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.userName {
+    margin-bottom: 0;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.userRole {
+    margin-bottom: 0;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideTexts {
+    margin-bottom: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    margin-top: 20px;
+    font-weight: bolder;
+    /* text-decoration: underline; */
+}
+
+.sideTexts .portalName {
+    text-decoration: none;
+}
+
+.photo {
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+}
+
+.routeContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.leftBox {
+    border-right: 2px solid rgb(65, 55, 55);
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    background-color: #008080;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.rightBox {
+    width: 80vw;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    display: flex;
+    margin-left: 20%;
+}
+
+.toggleBar {
+    /* background-color: white; */
+    color: white;
+    font-weight: bolder;
+    /* border-bottom: 2px solid black; */
+    /* width: 100%; */
+    display: flex;
+    /* width: 250px; */
+    /* width: 100%; */
+    height: 60px;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logOut {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.tabBar {
+    width: 100%;
+}
+
+@media screen and (max-width: 950px) {
+    .shadow {
+        text-shadow: 2px 2px #000000;
+        font-size: 16px;
+    }
+
+    .loggedUser {
+        margin-left: 5px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .shadow {
+        text-shadow: 2px 2px #000000;
+        font-size: 13px;
+    }
+
+    .loggedUser {
+        margin-left: 5px;
+        font-size: 13px;
+    }
+}
